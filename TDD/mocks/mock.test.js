@@ -1,4 +1,5 @@
-const {filterCharacter, checkIsAlive} = require('./filter-chars')
+const {filterCharacter} = require('./src/filter-chars')
+const {checkIsAlive} = require('./src/is-alive')
 const { rejects, deepStrictEqual } = require('assert')
 const { default:expect } = require('expect')
  ;
