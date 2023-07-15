@@ -4,9 +4,10 @@
   },
   "name": "mocks",
   "version": "1.0.0",
-  "main": "./src/filter-chars.js",
+  "main": "./__mocks__/mock.test.js",
+  "type": "module",
   "directories": {
-    "test": "tests"
+    "test": "__mocks__"
   },
   "dependencies": {
     "ansi-escapes": "^4.3.2",
@@ -196,7 +197,7 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "jest ./mock.test.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
