@@ -4,7 +4,7 @@
   },
   "name": "mocks",
   "version": "1.0.0",
-  "main": "./__mocks__/mock.test.js",
+  "main": "./__test__/./__mocks__/mock.test.js",
   "type": "module",
   "directories": {
     "test": "__mocks__"
